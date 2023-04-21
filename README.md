@@ -7,7 +7,7 @@ A Hugo theme derived from [Luke Smith's simple Hugo theme 'lugo'](https://github
 ```sh
 hugo new site new-site
 cd new-site
-git clone https://github.com/MiragonMx/aurealm_theme themes/aurealm
+git submodule add https://github.com/MiragonMx/aurealm themes/aurealm
 echo "theme = 'aurealm'" >> config.toml
 # Or, if the Hugo version is > 0.110.0
 # echo "theme = 'aurealm'" >> hugo.toml
